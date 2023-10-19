@@ -1,0 +1,35 @@
+.footer {
+    width                : 85%;
+    margin               : 0 auto;
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    gap                  : 16rem;
+    align-items          : center;
+    padding              : 7rem 0;
+}
+
+.footer .footer__title {
+    font-size: 2.3rem;
+}
+
+.footer .footer__list {
+    display              : grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap                  : 7rem;
+}
+
+
+.footer .footer__paragraph {
+    font-size: var(--tsmall);
+    margin   : 2rem 0;
+}
+
+.footer .footer__links {
+    display: grid;
+    gap    : 1.5rem;
+}
+
+.footer .footer__link {
+    font-size: var(--tsmall);
+    color    : var(--paragraph);
+}

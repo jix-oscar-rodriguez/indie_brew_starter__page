@@ -1,0 +1,29 @@
+.social {
+   display              : grid;
+   grid-template-columns: 1.5fr 1fr;
+   width                : 85%;
+   margin               : 0 auto;
+   overflow             : hidden;
+   margin-top           : 8rem;
+   gap                  : 9rem;
+   align-items          : center;
+   margin-bottom        : 3rem;
+}
+
+.social .social__img {
+   width       : 25vw;
+   justify-self: end;
+}
+
+.social .social__info {
+   display: grid;
+   gap    : 1.3rem;
+}
+
+.social__info .social__title {
+   font-size: 4rem;
+}
+
+.social__info .social__paragraph {
+   font-size: var(--tsmall);
+}

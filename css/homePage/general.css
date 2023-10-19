@@ -1,0 +1,47 @@
+/* VARIABLES OF COLORS AND MORE ♦ */
+:root {
+    --button-primary: #664efc;
+    --paragraph     : #464646;
+    --title         : #000000;
+    --title-second  : #ffffff;
+    --tsmall        : 1.9rem;
+    --tmedium       : 2rem;
+}
+
+/* GENERAL CONFIGURATION 👀 */
+
+* {
+    margin         : 0;
+    padding        : 0;
+    box-sizing     : border-box;
+    list-style     : none;
+    text-decoration: none;
+    font-family    : 'DM Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.title {
+    color: var(--title);
+}
+
+.paragraph {
+    color: var(--paragraph);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.link--blue {
+    font-size  : var(--tsmall);
+    font-weight: bold;
+    color      : var(--button-primary);
+
+}
+
+footer {
+    background-color: #fdfcf9;
+}

@@ -1,0 +1,19 @@
+html {
+    font-size: 50%;
+}
+
+.start {
+    display       : flex;
+    flex-direction: column-reverse;
+    align-items   : center;
+}
+
+.footer {
+    width: 95%;
+    gap  : 4rem;
+}
+
+.footer .footer__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap                  : 2rem;
+}

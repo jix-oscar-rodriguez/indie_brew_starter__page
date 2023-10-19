@@ -1,0 +1,40 @@
+.navbar li {
+   display: none;
+}
+
+.navbar .fa-solid {
+   display  : block;
+   transform: scale(2.8);
+}
+
+
+.social {
+   display       : flex;
+   flex-direction: column-reverse;
+}
+
+.social .social__img {
+   width: 80vw;
+}
+
+.app {
+   display       : flex;
+   flex-direction: column;
+}
+
+.app .app__img {
+   width: 72vw;
+}
+
+.footer {
+   display       : flex;
+   flex-direction: column;
+   width         : 90%;
+}
+
+.footer .footer__list {
+   grid-template-columns: repeat(2, 1fr);
+   gap                  : 2rem;
+   width                : 100%;
+   justify-items        : center;
+}

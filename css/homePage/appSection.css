@@ -1,0 +1,33 @@
+.app {
+   display              : grid;
+   grid-template-columns: 1fr 1.5fr;
+   width                : 85%;
+   margin               : 0 auto;
+   overflow             : hidden;
+   margin-top           : 8rem;
+   gap                  : 9rem;
+   align-items          : center;
+   margin-bottom        : 3rem;
+}
+
+.app .app__img {
+   width       : 32vw;
+   justify-self: center;
+}
+
+.app .app__title {
+   font-size: 4rem;
+}
+
+.app .app__info {
+   display: grid;
+   gap    : 1.3rem;
+}
+
+.app__info .app__title {
+   font-size: 4rem;
+}
+
+.app__info .app__paragraph {
+   font-size: var(--tsmall);
+}
